@@ -8,5 +8,9 @@ public class GameOverButtonManager : MonoBehaviour {
     public void Retry() {
         SceneManager.LoadScene("MainWorld");
     }
-    
+
+    public void Quit() {
+        Application.Quit();
+    }
+
 }
