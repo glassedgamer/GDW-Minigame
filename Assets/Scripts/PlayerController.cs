@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
     float horizontalInput;
@@ -28,6 +29,12 @@ public class PlayerController : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
+        }
+    }
+
+    void OnTriggerEnter(Collider col) {
+        if(col.gameObject.tag == "Barrier") {
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

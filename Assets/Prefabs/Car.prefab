@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484949837077580141}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.17364816, y: -0, z: -0, w: 0.9848078}
+  m_LocalRotation: {x: 0.10574344, y: 0, z: 0, w: 0.99439347}
   m_LocalPosition: {x: 0, y: 3, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
-  turnSpeed: 35
+  turnSpeed: 45
   shootingPoint: {fileID: 2889818603788492989}
   bulletPrefab: {fileID: 7279597101318879335, guid: b1b4ed868d2861e4ea060d54b22c4615, type: 3}
 --- !u!1 &8497189350028668677
